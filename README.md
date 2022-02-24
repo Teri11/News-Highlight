@@ -1,0 +1,2 @@
+## NEWS-HIGHLIGHT
+ Parents are always busy workers and they get home really late. They always miss the news and they are very frustrated since they can't keep up with current affairs.So this App solves the problem.<br><strong>Created on 24/02/2022</strong><br>By<strong>Kubai Augustine Mweteri</strong>
