@@ -5,10 +5,10 @@
 1)Install the Visual studio code.<br>2)Git clone the repository.<br>3)Make sure the live server extension is installed.<br>4)Click on Go live.
 
 ## Todo list
-1)Design.<br>2)Execute for business use.
+1)Design.<br>2)Execute for  use.
 
 ## Technologies Used
-1)HTML. <br>2)CSS.<br>3) Python.<br> 5)Bootstrap.
+1)Python. <br>2)CSS.<br>3) HTML.<br> 5)Bootstrap.
 
 
 ## Support and contact details
