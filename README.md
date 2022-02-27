@@ -23,8 +23,8 @@ and application and this allows me to grow my skills in upgrading my app.
 
 
 ## Support and contact details
-Incase of any queries contact:
-Email Address;augustineteri157@gmail.com
+Incase of any queries contact:<br>
+Email Address;augustineteri157@gmail.com<br>
 Phone number:+254796042110
 
 ## License
