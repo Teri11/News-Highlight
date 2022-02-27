@@ -4,15 +4,27 @@
 
         {% block content %}
           
-             <h3> Top news sources</h3>
-             <ul>
-                {% for highlight in highlights %}
-                    <li>{{ highlight.name}}</li>
-                    <li><a href="{{ highlight.url}}">{{ highlight.url}}</a></li>
-                   
-                   
-                {% endfor %}
-            </ul> 
+             <h3 style="color:black;text-align:center;"> TOP WORLD NEWS SOURCES</h3>
+
+         {% for highlight in highlights %}
+             <div class="card text-center">
+              <div class="card-header">
+                <h2 style="color:black;font-family: 'Mochiy Pop P One', sans-serif;
+                  font-family: 'Outfit', sans-serif;
+                  font-family: 'Poppins', sans-serif;
+                  font-family: 'Roboto Slab', serif;"
+                   class="card-title">{{ highlight.name}}</h2>
+              </div>
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Your Trusted source</h6>
+                <p class="card-text">{{highlight.description}}</p>
+                <a href="{{ highlight.url}}" class="btn btn-primary">View More</a>
+              </div>
+              <div class="card-footer text-muted">
+                Streamed Live😃
+              </div>
+              {% endfor %}
+            </div>
      
 {% endblock%}  
 
