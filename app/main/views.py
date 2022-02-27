@@ -9,10 +9,8 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    Trending_news = get_news()
-    print(Trending_news)
     title = 'Home - News'
-    return render_template('index.html' , title=title,Trending = Trending_news)
+    return render_template('index.html' , title=title)
 
 
 @main.route('/article/<int:id>')
