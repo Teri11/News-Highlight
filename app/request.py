@@ -2,9 +2,9 @@ import urllib.request,json
 from .models import News
 
 # Getting api key
-api_key = None
-# Getting the movie base url
-base_url = None
+api_key = 'e453ee2b59724f94885db5f0444a1295'
+# Getting the news base url
+base_url = "https://newsapi.org/v2/top-headlines/sources?apiKey={}"
 
 def configure_request(app):
     global api_key,base_url
